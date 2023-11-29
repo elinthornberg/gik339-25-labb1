@@ -1,0 +1,24 @@
+body {
+    background-color: #193366;
+} 
+    
+.container {
+    background-color: #f2f2f2;
+    inline-size: 20em;
+    padding: 2em;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+#output {
+    background-color: rgb(187, 151, 151);
+    padding: 0.5rem;
+}
+
+#settings{
+    padding-bottom: 1rem;
+}
+
+
