@@ -1,20 +1,26 @@
 body {
-    background-color: #193366;
+    background-color:#675158;
+    
 } 
     
 .container {
-    background-color: #f2f2f2;
+    background-color: #E6E2DB;
     inline-size: 20em;
     padding: 2em;
+    border: 1px solid black;
+    border-radius: 0.5em;
 }
 
 h1 {
-    color: aliceblue;
+    color: black;
+    
 }
 
 #output {
-    background-color: rgb(187, 151, 151);
+    background-color: E6E2DB;
     padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 0.5em;
 }
 
 #settings{
