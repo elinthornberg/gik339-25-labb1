@@ -6,13 +6,11 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+  
 </head>
 <body>
   <h1>Labb 1 grupp 25</h1>
     <div class="container">
-        <div>
-          <div class="flex">
             <form id="settings" class="settings">
               <div class="input-group">
                 <label class="input-label" for="color">Färg</label>
@@ -22,14 +20,14 @@
                 <label class="input-label" for="content">Innehåll</label>
                 <input class="textfield" type="text" id="content" name="content" />
               </div>
-              <label class="checkbox">Stil på box</label>
-              <input type="checkbox" id="divStyle" name="divStyle" />
-              <button id="remove">Rensa</button>
+              <div class="checkbox-group">
+              <label class="checkbox-label">Stil på box</label>
+              <input class="checkbox" type="checkbox" id="divStyle" name="divStyle" />
+              </div>
+              <button class="button" type="reset" id="remove">Rensa</button>
             </form>
             <div id="output">DEnna ska vara tom</div>
-          </div>
-        </div>
-        <div id="dynamicDisplay"></div>
       </div>
+      <script src='main.js'></script>
 </body>
 </html>
