@@ -1,4 +1,4 @@
-//uppgift 4
+
 const checkBox = document.getElementById("divStyle");
 const textFields = document.querySelectorAll('.textfield');
 const button = document.querySelector('.button');
