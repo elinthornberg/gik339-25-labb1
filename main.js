@@ -2,7 +2,7 @@
 const checkBox = document.getElementById("divStyle");
 const textFields = document.querySelectorAll('.textfield');
 const button = document.querySelector('.button');
-const output = document.getElementById('output');
+const output = document.getElementsByName('output');
 
 
 function handleEvent (e){
@@ -11,19 +11,19 @@ function handleEvent (e){
 
    if(temp === "content") {
     const value = e.target.value;
-    output.innerHTML = '<p>' + value + '</p>';
+    output[0].innerHTML = '<p>' + value + '</p>';
    }
 }
 
 
 checkBox.addEventListener('change', (e) => {
     const color = textFields[0].value;
-    output.style.backgroundColor = color;
+    output[0].style.backgroundColor = color;
 });
 
 textFields.forEach((fields) => fields.addEventListener('blur', handleEvent));
 
 button.addEventListener('click', (e) => {
-    output.remove();
+    output[0].remove();
 });
 

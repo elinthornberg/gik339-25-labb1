@@ -12,11 +12,10 @@ ol {
 }
 
 body {
-    /* background-color:#675158; */
     padding: 5rem;
     background: rgb(27,9,27);
     background: linear-gradient(0deg, rgba(27,9,27,1) 27%, rgba(93,242,87,1) 53%, rgba(40,14,44,1) 87%);
-    
+    height: 100vh;
 } 
     
 .container {
